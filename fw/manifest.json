@@ -1,0 +1,8 @@
+{
+  "version": null,
+  "released_at": null,
+  "release_notes_url": null,
+  "esp32": null,
+  "stm32": null,
+  "_note": "Placeholder. Will be populated by the AR01_FW release workflow on the next tag push."
+}
