@@ -1,50 +1,72 @@
 # AR01 Updates
 
-Public distribution channel for AR01 firmware binaries and GUI installers.
-Used by the AR01 GUI app to check for and download updates.
+Public artifact hub for the AR01 platform. Hosts firmware binaries +
+manifest under `fw/`, GUI installer manifest under `gui/`, and the
+matching GitHub Releases that serve those artifacts. Used by both the
+device firmware update flow and the AR01 GUI's in-app update checks —
+neither path consumes the GitHub Auth API, so no auth, no rate limit.
+
+Source code for these artifacts lives in private repos
+(`RehabtekLLC/AR01_FW`, `RehabtekLLC/AR01-GUI`). This repo only carries
+release outputs.
+
+> **The full release architecture — publish flows, tag conventions,
+> manifest schemas, troubleshooting, retirement plans — is documented
+> in
+> [`AR01-GUI/docs/release-architecture.md`](https://github.com/RehabtekLLC/AR01-GUI/blob/main/docs/release-architecture.md).
+> The doc lives next to the workflows that produce these artifacts so
+> they stay in sync. Read it first when debugging a release.**
 
 ## Layout
 
 ```
 AR01_Updates/
-├── fw/                    Firmware binaries + manifest
-│   ├── manifest.json      Current version + URLs + checksums
+├── fw/
+│   ├── manifest.json      Current FW version + binary URLs + SHA-256
 │   ├── esp32-nexus.bin    Latest ESP32 firmware (always overwritten)
 │   └── stm32-app.bin      Latest STM32 firmware (always overwritten)
-└── gui/                   GUI installers (populated by AR01 GUI repo)
+└── gui/
+    └── manifest.json      All GUI versions: latest + history array
 ```
 
-Source code for these artifacts lives in private repos
-(`RehabtekLLC/AR01_FW`, `RehabtekLLC/AR01_GUI`). This repo only carries
-build outputs.
+Firmware binaries are committed into `fw/` AND attached to tagged
+releases. GUI installers are **not** committed into `gui/` — they live
+exclusively as release assets under `gui-v*` tags on this repo, with
+`gui/manifest.json` as the canonical index.
 
-## Firmware update check (for GUI developers)
+## Quick reference
 
-The GUI fetches firmware metadata from a stable raw URL — no GitHub API
-auth needed:
+**Manifest URLs** (raw, anonymous, no API auth):
 
-```
-https://raw.githubusercontent.com/RehabtekLLC/AR01_Updates/main/fw/manifest.json
-```
+- Firmware:
+  `https://raw.githubusercontent.com/RehabtekLLC/AR01_Updates/main/fw/manifest.json`
+- GUI:
+  `https://raw.githubusercontent.com/RehabtekLLC/AR01_Updates/main/gui/manifest.json`
 
-The manifest declares the current version, download URLs, and SHA-256
-checksums for `esp32-nexus.bin` and `stm32-app.bin`. The GUI compares
-this version with the device's BLE `FwVersion` characteristic
-(`a1010008`) and offers an in-app update via the BLE OTA characteristic.
+**Tag conventions**:
 
-Historical versions are also published as tagged GitHub Releases on this
-repo (matching the `AR01_FW` tag, e.g. `v0.2.0`), with the same
-binaries attached as release assets.
+| Source                               | Source tag    | Release tag on this repo |
+|--------------------------------------|---------------|--------------------------|
+| Firmware (`AR01_FW`)                 | `v1.2.3`      | `v1.2.3`                 |
+| GUI (`AR01-GUI`)                     | `gui-v1.2.3`  | `gui-v1.2.3`             |
 
-## Firmware publishing flow
+There is also a transitional **legacy GUI mirror** on
+`RehabtekLLC/AR01-Nexus-GUI-releases` that publishes the same installer
+under the bare `v1.2.3` tag (no `gui-` prefix) so older in-field
+installs whose update check can't parse the new prefix keep receiving
+updates. That mirror retires once the field has rolled forward — see
+the architecture doc for the cutover plan.
 
-When `AR01_FW` pushes a `v*.*.*` tag, its release CI:
+## When something breaks
 
-1. Builds bootloader + app + ESP32 firmware (stamped with the tag).
-2. Publishes a release on the private `AR01_FW` repo.
-3. **Mirrors `esp32-nexus.bin` + `stm32-app.bin` to this repo**:
-   - Commits new files to `fw/` on `main` (for the always-latest path).
-   - Creates a matching tagged release on this repo (for history + API).
-4. Updates `fw/manifest.json` with the new version + checksums.
+Don't debug from scratch — the symptom-first troubleshooting section
+in
+[release-architecture.md#troubleshooting](https://github.com/RehabtekLLC/AR01-GUI/blob/main/docs/release-architecture.md#troubleshooting)
+covers the failure modes we've actually hit, including:
 
-No manual upload step.
+- in-field installs not seeing a new release
+- update prompts that fire but fail to download/install
+- workflows that go green but don't publish
+- `gui/manifest.json` not updating
+- firmware OTA failing mid-flash
+- `release.yml` version-mismatch errors
