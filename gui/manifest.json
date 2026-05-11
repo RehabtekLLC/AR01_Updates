@@ -1,7 +1,15 @@
 {
-  "latest": "2.3.0",
+  "latest": "2.3.1",
   "minSupported": null,
   "versions": [
+    {
+      "version": "2.3.1",
+      "released": "2026-05-11T19:31:12Z",
+      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.3.1/AR01-Nexus-Setup-2.3.1.exe",
+      "sha256": "ab840935a09c191e101ad96bcb39708e48a8891eafb57e861671ca9662d57b54",
+      "sizeBytes": 21571197,
+      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.3.1"
+    },
     {
       "version": "2.3.0",
       "released": "2026-05-11T18:55:56Z",
