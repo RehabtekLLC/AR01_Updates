@@ -1,17 +1,17 @@
 {
-  "version": "v0.3.3",
-  "released_at": "2026-05-12T21:39:13Z",
-  "release_notes_url": "https://github.com/RehabtekLLC/AR01_FW/releases/tag/v0.3.3",
+  "version": "v0.3.4",
+  "released_at": "2026-05-13T14:16:52Z",
+  "release_notes_url": "https://github.com/RehabtekLLC/AR01_FW/releases/tag/v0.3.4",
   "esp32": {
     "filename": "esp32-nexus.bin",
     "url": "https://raw.githubusercontent.com/RehabtekLLC/AR01_Updates/main/fw/esp32-nexus.bin",
-    "sha256": "f8076a4ad74abd9c054e665be66a625ca052d006e4a34730ab84bcf9e6875b50",
-    "size": 1146160
+    "sha256": "dd33f755a50059593ff6b5a4890eec02cf5be4ecec20c9fc6b31bc6a85b8786c",
+    "size": 1148336
   },
   "stm32": {
     "filename": "stm32-app.bin",
     "url": "https://raw.githubusercontent.com/RehabtekLLC/AR01_Updates/main/fw/stm32-app.bin",
-    "sha256": "9f7c78964fbe04dda2e6870dbdb8abf70a9dfca7c3123cd881f5043b7a71d982",
+    "sha256": "26e82637f6fd52c9465846ed272009776343fe381555cdd229b08f5e4398a852",
     "size": 57016
   }
 }
