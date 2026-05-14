@@ -1,6 +1,6 @@
 {
   "latest": "2.4.1",
-  "minSupported": 2.4.1,
+  "minSupported": "2.4.1",
   "versions": [
     {
       "version": "2.4.1",
