@@ -1,7 +1,15 @@
 {
-  "latest": "2.4.3",
+  "latest": "2.4.4",
   "minSupported": "2.4.1",
   "versions": [
+    {
+      "version": "2.4.4",
+      "released": "2026-05-15T16:29:04Z",
+      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.4/AR01-Nexus-Setup-2.4.4.exe",
+      "sha256": "d8a9ca101637453890d1b9ff09068fe0e3e01c53febf2cd875695f2f26c59530",
+      "sizeBytes": 21582882,
+      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.4"
+    },
     {
       "version": "2.4.3",
       "released": "2026-05-14T22:51:39Z",
