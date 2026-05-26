@@ -1,78 +1,86 @@
 {
-  "latest": "2.4.5",
-  "minSupported": "2.4.1",
-  "versions": [
-    {
-      "version": "2.4.5",
-      "released": "2026-05-19T22:45:19Z",
-      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.5/AR01-Nexus-Setup-2.4.5.exe",
-      "sha256": "b88dbb882d512f559a31045388373ac2166986305a5728979982e0d9155e9820",
-      "sizeBytes": 24911711,
-      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.5"
-    },
-    {
-      "version": "2.4.4",
-      "released": "2026-05-15T16:29:04Z",
-      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.4/AR01-Nexus-Setup-2.4.4.exe",
-      "sha256": "d8a9ca101637453890d1b9ff09068fe0e3e01c53febf2cd875695f2f26c59530",
-      "sizeBytes": 21582882,
-      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.4"
-    },
-    {
-      "version": "2.4.3",
-      "released": "2026-05-14T22:51:39Z",
-      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.3/AR01-Nexus-Setup-2.4.3.exe",
-      "sha256": "911e3f9d05668e8ed34f83564b4e4bee4275c22cb4d57ca87d74719fde2b10b3",
-      "sizeBytes": 21580028,
-      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.3"
-    },
-    {
-      "version": "2.4.2",
-      "released": "2026-05-14T18:41:20Z",
-      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.2/AR01-Nexus-Setup-2.4.2.exe",
-      "sha256": "f3c81c03d84640b548065efc3cb949504d9400d686e22cb9b02847f458e4326c",
-      "sizeBytes": 21579213,
-      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.2"
-    },
-    {
-      "version": "2.4.1",
-      "released": "2026-05-14T18:15:08Z",
-      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.1/AR01-Nexus-Setup-2.4.1.exe",
-      "sha256": "e56e6e6d915889e5b4b68512b5fc8b51ca8ed0e61eb6a2098d1d1f41e033c179",
-      "sizeBytes": 21579673,
-      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.1"
-    },
-    {
-      "version": "2.4.0",
-      "released": "2026-05-13T21:38:15Z",
-      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.0/AR01-Nexus-Setup-2.4.0.exe",
-      "sha256": "d271a09c427f1cc5f251b451db0f389f1b270c1c0773e7a8fc4149f4756ea12f",
-      "sizeBytes": 21580835,
-      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.0"
-    },
-    {
-      "version": "2.3.2",
-      "released": "2026-05-13T17:56:52Z",
-      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.3.2/AR01-Nexus-Setup-2.3.2.exe",
-      "sha256": "096ff7e5427025046562a96556a6511f53448d565a45c06bd226c237a49b0e18",
-      "sizeBytes": 21578671,
-      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.3.2"
-    },
-    {
-      "version": "2.3.1",
-      "released": "2026-05-11T19:31:12Z",
-      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.3.1/AR01-Nexus-Setup-2.3.1.exe",
-      "sha256": "ab840935a09c191e101ad96bcb39708e48a8891eafb57e861671ca9662d57b54",
-      "sizeBytes": 21571197,
-      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.3.1"
-    },
-    {
-      "version": "2.3.0",
-      "released": "2026-05-11T18:55:56Z",
-      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.3.0/AR01-Nexus-Setup-2.3.0.exe",
-      "sha256": "7ffd0acd7637aed0ca341f74f3522af925b210d27f64e8e1deb926356b06762c",
-      "sizeBytes": 21576378,
-      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.3.0"
-    }
-  ]
+    "latest":  "2.5.0",
+    "minSupported":  "2.4.1",
+    "versions":  [
+                     {
+                         "version":  "2.5.0",
+                         "released":  "2026-05-26T16:09:13Z",
+                         "installerUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.5.0/AR01-Nexus-Setup-2.5.0.exe",
+                         "sha256":  "b4835067edb090b8b7aa419cc92cea2387ddbe12525452e97910f7b3de0f1b7a",
+                         "sizeBytes":  25071627,
+                         "notesUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.5.0"
+                     },
+                     {
+                         "version":  "2.4.5",
+                         "released":  "2026-05-19T22:45:19Z",
+                         "installerUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.5/AR01-Nexus-Setup-2.4.5.exe",
+                         "sha256":  "b88dbb882d512f559a31045388373ac2166986305a5728979982e0d9155e9820",
+                         "sizeBytes":  24911711,
+                         "notesUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.5"
+                     },
+                     {
+                         "version":  "2.4.4",
+                         "released":  "2026-05-15T16:29:04Z",
+                         "installerUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.4/AR01-Nexus-Setup-2.4.4.exe",
+                         "sha256":  "d8a9ca101637453890d1b9ff09068fe0e3e01c53febf2cd875695f2f26c59530",
+                         "sizeBytes":  21582882,
+                         "notesUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.4"
+                     },
+                     {
+                         "version":  "2.4.3",
+                         "released":  "2026-05-14T22:51:39Z",
+                         "installerUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.3/AR01-Nexus-Setup-2.4.3.exe",
+                         "sha256":  "911e3f9d05668e8ed34f83564b4e4bee4275c22cb4d57ca87d74719fde2b10b3",
+                         "sizeBytes":  21580028,
+                         "notesUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.3"
+                     },
+                     {
+                         "version":  "2.4.2",
+                         "released":  "2026-05-14T18:41:20Z",
+                         "installerUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.2/AR01-Nexus-Setup-2.4.2.exe",
+                         "sha256":  "f3c81c03d84640b548065efc3cb949504d9400d686e22cb9b02847f458e4326c",
+                         "sizeBytes":  21579213,
+                         "notesUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.2"
+                     },
+                     {
+                         "version":  "2.4.1",
+                         "released":  "2026-05-14T18:15:08Z",
+                         "installerUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.1/AR01-Nexus-Setup-2.4.1.exe",
+                         "sha256":  "e56e6e6d915889e5b4b68512b5fc8b51ca8ed0e61eb6a2098d1d1f41e033c179",
+                         "sizeBytes":  21579673,
+                         "notesUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.1"
+                     },
+                     {
+                         "version":  "2.4.0",
+                         "released":  "2026-05-13T21:38:15Z",
+                         "installerUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.4.0/AR01-Nexus-Setup-2.4.0.exe",
+                         "sha256":  "d271a09c427f1cc5f251b451db0f389f1b270c1c0773e7a8fc4149f4756ea12f",
+                         "sizeBytes":  21580835,
+                         "notesUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.4.0"
+                     },
+                     {
+                         "version":  "2.3.2",
+                         "released":  "2026-05-13T17:56:52Z",
+                         "installerUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.3.2/AR01-Nexus-Setup-2.3.2.exe",
+                         "sha256":  "096ff7e5427025046562a96556a6511f53448d565a45c06bd226c237a49b0e18",
+                         "sizeBytes":  21578671,
+                         "notesUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.3.2"
+                     },
+                     {
+                         "version":  "2.3.1",
+                         "released":  "2026-05-11T19:31:12Z",
+                         "installerUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.3.1/AR01-Nexus-Setup-2.3.1.exe",
+                         "sha256":  "ab840935a09c191e101ad96bcb39708e48a8891eafb57e861671ca9662d57b54",
+                         "sizeBytes":  21571197,
+                         "notesUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.3.1"
+                     },
+                     {
+                         "version":  "2.3.0",
+                         "released":  "2026-05-11T18:55:56Z",
+                         "installerUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.3.0/AR01-Nexus-Setup-2.3.0.exe",
+                         "sha256":  "7ffd0acd7637aed0ca341f74f3522af925b210d27f64e8e1deb926356b06762c",
+                         "sizeBytes":  21576378,
+                         "notesUrl":  "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.3.0"
+                     }
+                 ]
 }
