@@ -3,6 +3,15 @@
   "minSupported": "2.4.1",
   "versions": [
     {
+      "version": "2.6.1-beta.1",
+      "released": "2026-06-08T20:47:36Z",
+      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.6.1-beta.1/AR01-Nexus-Setup-2.6.1.exe",
+      "sha256": "8ee9ef748e9873ffc9f63ac18259c438a8b8cd902225eaa039eb90ec28d7fecb",
+      "sizeBytes": 25070150,
+      "prerelease": true,
+      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.6.1-beta.1"
+    },
+    {
       "version": "2.6.0",
       "released": "2026-06-08T19:52:07Z",
       "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.6.0/AR01-Nexus-Setup-2.6.0.exe",
