@@ -1,7 +1,16 @@
 {
-  "latest": "2.6.0",
+  "latest": "2.7.0",
   "minSupported": "2.4.1",
   "versions": [
+    {
+      "version": "2.7.0",
+      "released": "2026-07-13T22:53:36Z",
+      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.7.0/AR01-Nexus-Setup-2.7.0.exe",
+      "sha256": "b2dae9c74de7d1e71f6f93dea8699cb1c9bc17fe9c2f7b294ee143f7d374aecf",
+      "sizeBytes": 25141354,
+      "prerelease": false,
+      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/gui-v2.7.0"
+    },
     {
       "version": "2.7.0-beta.3",
       "released": "2026-06-25T16:31:32Z",
