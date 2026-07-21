@@ -3,6 +3,16 @@
   "minSupported": "2.4.1",
   "versions": [
     {
+      "version": "1.0.1",
+      "released": "2026-07-21T18:37:38Z",
+      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/home-gui-v1.0.1/AR01-Home-Setup-1.0.1.exe",
+      "sha256": "cf32624082d0803eb8df57ef3c2af540c270a66f2c2b8843664cefa68da64a66",
+      "sizeBytes": 25638970,
+      "prerelease": false,
+      "channel": "home",
+      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/home-gui-v1.0.1"
+    },
+    {
       "version": "1.0.0",
       "released": "2026-07-21T18:36:24Z",
       "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/home-gui-v1.0.0/AR01-Home-Setup-1.0.0.exe",
