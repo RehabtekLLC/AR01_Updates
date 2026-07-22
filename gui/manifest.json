@@ -3,6 +3,16 @@
   "minSupported": "2.4.1",
   "versions": [
     {
+      "version": "1.0.2",
+      "released": "2026-07-22T18:51:20Z",
+      "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/home-gui-v1.0.2/AR01-Home-Setup-1.0.2.exe",
+      "sha256": "717624648340db31a77a778d883c00f6745b226997c314bed29022546cec94e6",
+      "sizeBytes": 25643821,
+      "prerelease": false,
+      "channel": "home",
+      "notesUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/tag/home-gui-v1.0.2"
+    },
+    {
       "version": "2.8.4",
       "released": "2026-07-22T18:50:26Z",
       "installerUrl": "https://github.com/RehabtekLLC/AR01_Updates/releases/download/gui-v2.8.4/AR01-Nexus-Setup-2.8.4.exe",
